@@ -1,0 +1,252 @@
+.currencyList{
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  .currencyList__title{
+    text-align: center;
+    font-size: 22px;
+    color: #474747;
+    margin-bottom: 20px;
+  }
+
+  .currencyList__search{
+    text-align: center;
+    margin-bottom: 30px;
+
+    .currencyList__search__field{
+      padding-left: 10px;
+      width: 240px;
+      border: solid 1px #636363;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      font-size: 16px;
+      border-right: none;
+      outline: none;
+    }
+    .currencyList__search__clearButton{
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background: #636363;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 600;
+      border: solid 1px #636363;
+      outline: none;
+      &:hover{
+        color: #636363;
+        background: #fff;
+      }
+    }
+  }
+
+  .currencyList__table{
+    .table{
+      thead{
+        th{
+          cursor: pointer;
+
+          .currencyList__sortCaret{
+            font-size: 34px;
+            margin-right: 5px;
+            line-height: 16px;
+            color: #92a8b6;
+            font-weight: 600;
+            vertical-align: bottom;
+          }
+        }
+      }
+    }
+  }
+}
+
+.currencyAlerts{
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  .currencyAlerts__title{
+    text-align: center;
+    font-size: 22px;
+    color: #474747;
+    margin-bottom: 20px;
+  }
+}
+
+.currencyAlerts__list{
+  margin-bottom: 40px;
+
+  .currencyAlerts__list__item{
+    position: relative;
+
+    .currencyAlerts__list__item__remove{
+      position: absolute;
+      top: 0px;
+      right: 8px;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 16px;
+      color: #c06767;
+      padding: 1px 4px;
+      cursor: pointer;
+      z-index: 9999;
+    }
+  }
+
+  .currencyAlerts__list__noList{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+    h2{
+      font-size: 34px;
+      font-weight: 400;
+      font-style: italic;
+      color:#ccc;
+    }
+  }
+}
+
+.alertTriggers{
+  margin-bottom: 50px;
+}
+
+.currencyTriggers__list{
+  height: 370px;
+  overflow-y: scroll;
+  
+  .currencyTriggers__list__item{
+    
+    p{
+      text-align: center;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #474747;
+    }
+
+    table{
+      table-layout: auto;
+      width: 100%;
+      border-collapse: collapse;
+      tbody{
+        tr{
+          border-bottom: solid 1px #ccc;
+          td{
+            color: #474747;
+            font-size: 14px;
+            padding-top:10px;
+            padding-bottom:10px;
+
+            a{
+              display: block;
+              font-weight: 600;
+              padding: 0px 10px;
+              text-align: center;
+              border: solid 1px #ccc;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .currencyTriggers__list__noList{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    h2{
+      font-size: 28px;
+      font-weight: 400;
+      font-style: italic;
+      color:#ccc;
+    }
+  }
+
+  .currencyAlerts__list__createNew{
+    text-align: center;
+    margin-top: 40px;
+
+    button{
+      border-radius: 5px;
+      background: #636363;
+      font-size: 20px;
+      padding: 5px 15px;
+      color: #fff;
+      font-weight: 600;
+      border: solid 1px #636363;
+      outline: none;
+      &:hover{
+        color: #636363;
+        background: #fff;
+      }
+    }
+  }
+}
+
+.currencyAlerts__new{
+  .currencyAlerts__new__form{
+    padding-left: 30px;
+
+    .currencyAlerts__new__form__wrapper{
+      border: solid 1px #ccc;
+      padding: 10px 15px;
+      border-radius: 5px;
+      background: #ccc;
+
+      p{
+        text-align: center;
+        color: #636363;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .currencyAlerts__new__form__buttonWrapper{
+        text-align: center;
+
+        button{
+          border-radius: 5px;
+          background: #636363;
+          font-size: 18px;
+          padding: 3px 10px;
+          color: #fff;
+          font-weight: 600;
+          border: solid 1px #636363;
+          outline: none;
+          margin-top: 10px;
+          margin-bottom: 15px;
+        }
+      }
+
+      fieldset{
+      
+        label{
+          display: block;
+          width: 100%;
+          font-size: 14px;
+          line-height: 18px;
+        }
+  
+        input{
+          display: block;
+          width: 100%;
+          margin-bottom: 10px;
+          border: solid 1px #ccc;
+          outline: none;
+        }
+  
+        select{
+          display: block;
+          width: 100%;
+          margin-bottom: 10px;
+          border: solid 1px #ccc;
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+.input__border__fail{
+  border: solid 1px red !important;
+}
